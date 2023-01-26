@@ -38,3 +38,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           mvn clean test      
+      - name: Maven Jar Publish
+        uses: eric2788/maven-jar-publish@v2
